@@ -1,0 +1,14 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/bright_foreground_dark_disabled</item>
+        <item name="colorAccent">@color/holo_green_light</item>
+        <item name="boxStrokeColor">#fff</item>
+        <item name="boxStrokeWidth">2dp</item>
+        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="listPreferredItemHeightSmall">70dp</item>
+    </style>
+</resources>
+

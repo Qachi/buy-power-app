@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "133942692194",
+    "firebase_url": "https://fire-base-b9977.firebaseio.com",
+    "project_id": "fire-base-b9977",
+    "storage_bucket": "fire-base-b9977.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133942692194:android:7afb8b76c209064c9b043b",
+        "android_client_info": {
+          "package_name": "com.example.authapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133942692194-k6hjd5mo399es3d3d4k0ouod9he6eau8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiuewUTdFsJ6AukKkxP2UllGvk3Ba2DXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133942692194-k6hjd5mo399es3d3d4k0ouod9he6eau8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133942692194:android:f150d9120d78a59c9b043b",
+        "android_client_info": {
+          "package_name": "com.example.buypowerapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133942692194-k6hjd5mo399es3d3d4k0ouod9he6eau8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiuewUTdFsJ6AukKkxP2UllGvk3Ba2DXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133942692194-k6hjd5mo399es3d3d4k0ouod9he6eau8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/augustine_wong"
+    tools:context=".ui.BuyUnitActivity">
+
+    <include
+        android:id="@+id/buyUnitToolbar"
+        layout="@layout/buy_unit_toolbar" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout_1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@id/textInputLayout_2"
+        app:layout_constraintTop_toBottomOf="@id/linear_BuyUnit"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="459dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:inputType="none"
+            android:text="@string/abuja"
+            android:textColor="@color/transparent_color"
+            android:textStyle="bold"
+            tools:ignore="LabelFor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout_2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="28dp"
+        android:hint="@string/enter_new_meter_number"
+        android:textColorHint="@color/background_dark"
+        app:boxStrokeColor="@color/primary"
+        app:hintTextAppearance="@color/background_dark"
+        app:layout_constraintTop_toBottomOf="@id/textInputLayout_1"
+        tools:layout_editor_absoluteX="36dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_MeterNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zero_value"
+            android:textColor="@color/transparent_color" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/checkMeterButton"
+        android:layout_width="120dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="30dp"
+        android:background="@drawable/button_reset"
+        android:text="@string/check_saved_meter"
+        android:textColor="#fff"
+        android:textSize="7sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/textInputLayout_2"
+        tools:ignore="SmallSp"
+        tools:layout_editor_absoluteY="460dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout_3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="28dp"
+        android:hint="@string/amount"
+        android:textColorHint="@color/background_dark"
+        app:boxStrokeColor="@color/holo_green_light"
+        app:layout_constraintTop_toBottomOf="@id/textInputLayout_2"
+        tools:layout_editor_absoluteX="1dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editText_TextInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/value"
+            android:textColor="@color/transparent_color" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/button_reset"
+        android:text="@string/continue_to_payment_information"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout_3"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="156dp"
+        tools:layout_editor_absoluteY="534dp" />
+
+    <LinearLayout
+        android:id="@+id/linear_BuyUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/buyPowerText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/roboto_black"
+            android:text="@string/buyPower_ng"
+            android:textColor="@color/primary"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/mostConvenientTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/most_convenient_way_to_buy_electricity"
+            android:textColor="@color/holo_green_light"
+            android:textSize="8sp"
+            app:layout_constraintTop_toBottomOf="@id/linear_BuyUnit"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

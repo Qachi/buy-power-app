@@ -1,0 +1,160 @@
+<resources>
+    <string name="app_name">BuyPower</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="transactions">Transactions</string>
+    <string name="buy_electricity">Buy Electricity</string>
+    <string name="referrals">Referrals</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="reminders">Reminders</string>
+    <string name="meter_consumption_history">Meter Consumption History</string>
+    <string name="other_services">Other Services</string>
+    <string name="help_faq">Help / FAQ</string>
+    <string name="logout">Logout</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="topText">Get NGN 100 on your next Recharge</string>
+
+    <string-array name="States">
+        <item>ABUJA</item>
+        <item>NIGER</item>
+        <item>KOGI</item>
+        <item>NASSARAWA</item>
+        <item>PLATEAU</item>
+        <item>BENUE</item>
+        <item>BAUCHI</item>
+        <item>GOMBE</item>
+        <item>KADUNA</item>
+        <item>KEBBI</item>
+        <item>ZAMFARA</item>
+        <item>RIVERS</item>
+        <item>SOKOTO</item>
+        <item>LAGOS-IKEJA</item>
+        <item>LAGOS-EKO</item>
+        <item>ENUGU</item>
+        <item>PORT HARCOURT</item>
+        <item>ANAMBRA</item>
+    </string-array>
+
+    <string-array name="ContactUs">
+        <item>Please select a Reason</item>
+        <item>I was debited but did not get my token</item>
+        <item>I cannot make payment using my atm card</item>
+        <item>I don\'t know how to use a feature </item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="my_formatted_text">
+        <font color="#FF0707">Buy</font>
+        <font color="#0B132B">Power</font>
+    </string>
+
+    <string name="welcome_back">welcome back</string>
+    <string name="NUMBER">07066908262</string>
+    <string name="BuyPowerText">BuyPower.ng</string>
+    <string name="buyPower_ng">BuyPower.ng</string>
+    <string name="get_up_to_n100_or_more_on_your_next">Get Up to N100 or more on your next</string>
+    <string name="https_buyPower_ng_ref_b27f4c2d">https://buypower.ng/?ref=B27F4C2D</string>
+    <string name="buyPower">BuyPower</string>
+    <string name="we_are_here_to_answer_any_questions_you">we are here to answer any questions you</string>
+    <string name="may_have_about_our_services">may have about our services.</string>
+    <string name="want_to_talk_call_us_on">Want to talk, Call us on</string>
+    <string name="description">Description</string>
+    <string name="send_message">Send Message</string>
+    <string name="other_reasons_optional">Other Reasons (Optional)</string>
+    <string name="email_support_qachi_ng">Email: support@Qachi.ng</string>
+    <string name="convenience_at_your_door_step">Convenience at your door step</string>
+    <string name="i_was_told_by_an_existing_user">I was told by an existing user</string>
+    <string name="enter_new_meter_number">Enter New Meter Number</string>
+    <string name="abuja">ABUJA</string>
+    <string name="zero_value">0</string>
+    <string name="check_saved_meter">Check Saved Meter</string>
+    <string name="amount">Amount</string>
+    <string name="continue_to_payment_information">Continue to Payment Information</string>
+    <string name="value">0</string>
+    <string name="most_convenient_way_to_buy_electricity">Most convenient way to buy electricity</string>
+    <string name="_0706_690_8262">0706-690-8262</string>
+    <string name="todo">TODO</string>
+    <string name="please_select_a_reason">Please select a Reason</string>
+    <string name="buy_power_ng">BuyPower.ng</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="phone">Phone</string>
+    <string name="continue_to_buy_electricity">Continue to buy electricity</string>
+    <string name="buy_Power">BuyPower</string>
+    <string name="enter_you_registered_phone_number_below_nor_call_customer_support_on_n0906_690_8262_to_reset_your_password">Enter you registered Phone number below,\nor Call Customer Support on\n0906-690-8262 to reset your password.</string>
+    <string name="send_reset_link">Send Reset Link</string>
+    <string name="wrong_phone_number">Wrong Phone Number?</string>
+    <string name="login">Login</string>
+    <string name="order_history_ui">Order History UI</string>
+    <string name="_0">#0</string>
+    <string name="wallet_balance">Wallet Balance</string>
+    <string name="recharge_by_inviting_your_friends_to">recharge by inviting your friends to</string>
+    <string name="buy_power_using_the_link_below">BuyPower using the link below</string>
+    <string name="share">Share</string>
+    <string name="referral_list">Referral List</string>
+    <string name="no_referrals">No Referrals</string>
+    <string name="buy_power">BuyPower</string>
+    <string name="convenience_at_your_door">convenience at your door step</string>
+    <string name="register">REGISTER</string>
+    <string name="enter_email_address">Enter email address</string>
+    <string name="email_optional">Email (Optional)</string>
+    <string name="password">Password</string>
+    <string name="existing_user_s_phone_number">Existing user`s Phone Number</string>
+    <string name="register_to_continue">Register to continue</string>
+    <string name="_buy_power_ng">BuyPower.ng</string>
+    <string name="did_you_enter_the_wrong_phone_number">Did you enter the wrong phone number?</string>
+    <string name="enter_your_password_to_continue">Enter your password to continue</string>
+    <string name="forgot_your_password">Forgot your password</string>
+    <string name="register_">Register</string>
+    <string name="welcome_qachi">WELCOME QACHI</string>
+    <string name="order_history">Order History</string>
+    <string name="qachi_gmail_com">qachi@gmail.com</string>
+    <string name="buy_electricity_at_your">Buy Electricity at your</string>
+    <string name="convenience">Convenience</string>
+    <string name="update">Update</string>
+    <string name="_24_hours_support">24 Hours Support</string>
+    <string name="now_in_lagos_on_both">Now in Lagos on both</string>
+    <string name="ikeja_and_eko">IKEJA and EKO</string>
+    <string name="text_">TEXT</string>
+    <string name="thank_you_for_your_">Thank you for your</string>
+    <string name="continuous_patronage">continuous patronage</string>
+    <string name="description_contactus_activity">Description</string>
+    <string name="contactus_contactus_activity">Contact Us</string>
+    <string name="buyElectricity_buyElectricityActivity">Buy Electricity</string>
+    <string name="orderHistory_transaction">Transactions</string>
+    <string name="referrals_referralsActivity">Referrals</string>
+
+    <string name="buy_power_html_string">
+    <![CDATA[
+        <font color="%1$s">Buy</font><font color="%2$s">Power.ng</font>
+    ]]>
+</string>
+    <string name="message_sent">Message sent</string>
+    <string name="enter_phonenumber">Enter Phone Number</string>
+    <string name="buy_power_ng_splash_screen">BuyPower.ng</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password_is_short">Password is short</string>
+    <string name="enter_emailAddress">Enter Email Address</string>
+    <string name="enter_correct_phonenumber">Enter Correct PhoneNumber</string>
+    <string name="signed_in_successfully">Signed in successfully</string>
+    <string name="userEmail">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="password_not_match">Password does not match</string>
+    <string name="signUp_successful">Sign Up Successful</string>
+    <string name="password_6_characters">Password should be at least 6 characters</string>
+    <string name="reset_password_email_sent">Reset Password Email Sent</string>
+    <string name="email_not_registered">Email not registered</string>
+    <string name="error_checking_email_existence">Error checking email existence</string>
+    <string name="home_clicked">Home Clicked</string>
+    <string name="profile_clicked">Profile Clicked</string>
+    <string name="transaction_clicked">Transaction Clicked</string>
+    <string name="buy_electricity_clicked">Buy Electricity Clicked</string>
+    <string name="referral_clicked">Referral Clicked</string>
+    <string name="contact_us_clicked">Contact Us Clicked</string>
+    <string name="reminder__clicked">Reminder Clicked</string>
+    <string name="meter_consumption_clicked">Meter Consumption Clicked</string>
+    <string name="other_services_clicked">Other Services Clicked</string>
+    <string name="help_faq_clicked">Help/FAQ Clicked</string>
+    <string name="copied_to_clipboard">Copied to Clipboard</string>
+    <string name="enter_full_name">Enter Full Name</string>
+</resources>

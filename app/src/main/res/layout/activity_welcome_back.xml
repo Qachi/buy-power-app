@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/augustine_wong"
+    tools:context=".ui.WelcomeBackActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_BuyUnit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/buyPowerText"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:text="@string/_buy_power_ng"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/mostConvenientTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/most_convenient_way_to_buy_electricity"
+            android:textColor="@color/holo_green_light"
+            android:textSize="9sp"
+            app:layout_constraintTop_toBottomOf="@id/linear_BuyUnit"
+            tools:ignore="SmallSp" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameTextInputLayout"
+        style="@style/ThemeOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="30dp"
+        app:hintTextColor="@color/mtrl_textinput_default_box_stroke_color"
+        app:layout_constraintTop_toBottomOf="@+id/linear_BuyUnit"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/enter_email_address"
+            android:inputType="textEmailAddress"
+            android:paddingTop="10dp"
+            android:paddingEnd="40dp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/background_dark"
+            tools:ignore="RtlSymmetry" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTextInputLayout"
+        style="@style/ThemeOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="30dp"
+        app:hintTextColor="@color/mtrl_textinput_default_box_stroke_color"
+        app:layout_constraintTop_toBottomOf="@id/usernameTextInputLayout"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/background_dark"
+        tools:ignore="PrivateResource">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:paddingTop="10dp"
+            android:paddingEnd="40dp"
+            android:paddingBottom="20dp"
+            android:textColor="@color/background_dark"
+            tools:ignore="RtlSymmetry" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/continueToBuy_Electricity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/continue_to_buy_electricity"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="16sp"
+        app:layout_constraintTop_toBottomOf="@id/passwordTextInputLayout" />
+
+    <ProgressBar
+        android:id="@+id/progress_BarWelcome"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:indeterminate="true"
+        android:indeterminateTint="@color/holo_green_light"
+        android:minWidth="200dp"
+        android:minHeight="50dp"
+        android:progress="0"
+        android:rotation="190"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continueToBuy_Electricity" />
+
+    <Button
+        android:id="@+id/forgotYourPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/forgot_your_password"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continueToBuy_Electricity"
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="479dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="30dp"
+        android:text="@string/register_"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="13sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/continueToBuy_Electricity"
+        tools:layout_editor_absoluteX="287dp"
+        tools:layout_editor_absoluteY="471dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
